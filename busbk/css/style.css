@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image:url(../images/bg.jpg);
+	background-repeat:repeat-x;
+}
+#log
+{
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	width:280px;
+	height:203px;
+}
+.fl
+{
+	float:left;
+	width:850px;
+	
+}
+.mainTag
+{
+	moz-border-radius: 5px;
+	border-radius: 5px;
+	border:solid 1px #000;
+	background-color:#FFF;
+}
+#container
+{
+	margin:0 auto;
+	width:850px;
+}
+#menu
+{
+	width:600px;
+	height:	80px;
+	position: absolute;
+	left: 541px;
+	top: 120px;
+	
+}
+#coolMenu,
+#coolMenu ul {
+    list-style: none;
+}
+#coolMenu {
+    float: left;
+}
+#coolMenu > li {
+    float: left;
+}
+#coolMenu li a {
+display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+#coolMenu ul {
+    position: absolute;
+    display: none;
+z-index: 999;
+}
+#coolMenu ul li a {
+    width: 80px;
+}
+#coolMenu li:hover ul {
+    display: block;
+}
+/* Main menu
+------------------------------------------*/
+#coolMenu {
+	font-family: Arial;
+	font-size: 12px;
+	background-color: #E8E8E8;
+}
+#coolMenu > li > a {
+	color: #09C;
+	font-weight: bold;
+	background-image:url(../images/menu.png);
+	background-repeat:no-repeat;
+}
+#coolMenu > li:hover > a {
+	color: #666;
+	background-color: #E7E7E7;
+	background-image: url(../images/menuHover.png);
+	background-repeat: no-repeat;
+}
+.clear
+{
+	height:30px;
+}
+.iframeFirst
+{
+	border:none;
+	width:600px;
+	height:300px;
+	visibility:hidden;
+	display:none;
+}
+.iframeAfter
+{
+	border:none;
+	width:600px;
+	height:300px;
+	visibility:visible;
+	
+}
+/* Submenu
+------------------------------------------*/
+#coolMenu ul {
+    background: #f09d28;
+}
+#coolMenu ul li a {
+    color: #000;
+}
+#coolMenu ul li:hover a {
+    background: #ffc97c;
+}
+
+/* search textbox */
+.tbstyle1 {
+	width: 221px;
+	color : #747862;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+	background-color: transparent;
+	background-image: url(../images/ajaxbg.jpg);
+	background-repeat: no-repeat;
+}
+.listClass { 
+	margin: 10px 0 10px 15px; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.listClass li { 
+	color:#555; 
+	margin: 0 0 7px 0; 
+	padding: 0 0 0 20px; 
+	background: url(../images/list_icon.png) no-repeat scroll 0 4px;  
+}
+
+.listClassli { 
+	color: #555; 
+	font-weight: normal; 
+	text-decoration: none; 
+}
+
+.listClass li a:hover { 
+	color: #555; 
+}
+
+.button2 {
+  background: #d11717;
+  border: 2px solid #eee;
+  height: 38px;
+  width: 25px;
+  margin: 50px 0 0 50px;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  line-height: 38px;
+}
+#loginBox {
+	width: 300px;
+	float: right;
+	margin-right: 280px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #06F;
+	font-weight: normal;
+	font-variant: normal;
+}
+ #loginWin {
+	color: #90F;
+	display:none;
+	border:thin #000 solid;
+}
+#loginBox #loginWin table tr td #Login {
+	border: 2px solid #000;
+	display: block;
+	overflow: hidden;
+	background-color: #060;
+	color: #FFF;
+	width: 50px;
+}

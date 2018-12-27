@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical" >
+<TextView android:id="@+id/name" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:textSize="16sp" 
+    android:text="ss">
+  </TextView>
+  
+  <CheckBox android:id="@+id/CheckBox" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:padding="10dp"
+    android:layout_alignParentRight="true" android:layout_marginRight="6sp"
+    android:focusable="false">
+  </CheckBox>
+
+  <TextView
+      android:id="@+id/textViewid"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/name"
+      android:layout_marginLeft="42dp"
+      android:layout_toRightOf="@+id/name"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/textViewid"
+      android:layout_alignBottom="@+id/textViewid"
+      android:layout_marginRight="21dp"
+      android:layout_toLeftOf="@+id/CheckBox"
+      android:text="TextView" />
+
+    </RelativeLayout>
+    
+
+</ScrollView>
